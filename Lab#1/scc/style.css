@@ -1,0 +1,41 @@
+.width-33 {
+width: 33%;
+}
+
+.width-50 {
+width: 50%;
+}
+
+.width-100 {
+width: 100%;
+}
+
+table{
+max-width: 100%;
+border-spacing: 0px;
+border-collapse: collapse;
+font-size: 17px;
+}
+
+td {
+text-align: left;
+border: 2px solid black;
+margin: 0px;
+padding: 8px;
+}
+
+tr {
+padding: 0px;
+margin: 0px;
+vertical-align: baseline;
+border: 0;
+display: table-row;
+}
+
+.text-center {
+text-align: center;
+}
+
+.text-right {
+text-align: right;
+}

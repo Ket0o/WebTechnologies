@@ -1,0 +1,69 @@
+<html lang="ru">
+	<head>
+		<title>
+			Языки программирования, которые мы изучаем в вузе 
+		</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=1365">
+		<meta name="description" content="Страница о языках, которые мы узучаем">
+		<link rel="stylesheet" href="../CSS/style.css">
+		<link rel="stylesheet" href="../CSS/CSSLang.css">
+		<script src="../JS/watch.js" type="text/javascript"></script>
+		<script src="../JS/timer.js" type="text/javascript"></script>
+	</head>
+	<body id="body">
+		<div>
+			<style>
+				#body{
+						background-image: url("../images/lang.jpg");
+						background-size: cover;
+						background-repeat: no-repeat;
+					}
+					#namepage {
+						position: absolute;
+						text-align: left;
+						left: 0;
+      					top: 0;
+      					padding: 0 10px;
+						display: inline-block;
+						text-decoration: none;
+						font-size: 30px;
+					}
+		</style>
+		<a id="namepage" class="textFontPurple" href="programmingLanguage.html">Языки<br>программирования</a>
+			<ul>
+				<li><a href="task3Lab.html" class="langLiA">3 Лабораторная работа</a></li>
+				<li><a class="langLiA" href="https://tusur.ru/ru" target="_blank">ВУЗ</a></li>
+				<li><a class="langLiA" href="https://timetable.tusur.ru/faculties/fvs/groups/571-2" target="_blank">Группа</a></li>
+				<li><a class="langLiA" href="hometown.html">Место рождения</a></li>
+				<li><a class="langLiA" href="education.html">Образование</a></li>
+				<li><a class="langLiA" href="activity.html" >Любимое занятие</a></li>
+				<li><a class="langLiA" href="informationAboutAcademicPerformance.html">Сведения об успеваемости</a></li>
+				<li><a class="langActivity" href="programmingLanguage.html">Языки, которые мы изучаем</a></li>
+				<li><a class="langLiA" href="firstlab.html">Главная</a></li>
+			</ul>
+		<div>
+			<map name="languages">
+				<area shape="rect" coords="0, 0, 410, 400" href="https://ru.wikipedia.org/wiki/MATLAB" target="_blank" alt="matlab">
+				<area shape="rect" coords="411, 0, 720, 400" href="https://ru.wikipedia.org/wiki/C%2B%2B" target="_blank" alt="C++">
+				<area shape="rect" coords="721, 0, 1090, 400" href="https://ru.wikipedia.org/wiki/Python" target="_blank" alt="Python">
+				<area shape="rect" coords="1091, 0, 1600, 400" href="https://ru.wikipedia.org/wiki/C_Sharp" target="_blank" alt="C#">
+			</map>
+			<img src="../images/programmingLanguages.png" width=75% height=38% align="center" hspace=10% usemap="#languages" border="3">
+		</div>
+		<div class="dateBlock">
+			<p id="clock"></p>
+			<p id="date"></p>
+			<script type="text/javascript">
+				time();
+			</script>
+		</div>
+		<div class="dateBlock">
+			<p id="timer">Вы находитесь на этой страничке 00:00:00</p>
+			<script type="text/javascript">
+				timer();
+			</script>
+		</div>
+		</div>
+	</body>
+</html>

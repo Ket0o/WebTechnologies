@@ -1,0 +1,33 @@
+.academLiA {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.academLiA:hover {
+    color: rgb(185,106,3);
+}
+
+.academActivity {
+    color: rgb(185,106,3);
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.academAText{
+    font-family: "Comic Sans MS", sans-serif;
+    color: white;
+    font-size: 20mm;
+    text-align: center;
+    display: block;
+    margin: 345px ;
+    text-decoration: none;
+}

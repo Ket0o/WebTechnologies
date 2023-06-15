@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let flag;
+        flag = true;
+        $(document).ready(function () {
+            $("#buttonStart").click(function () {
+                animation1();
+            })
+            $("#buttonStop").click(function () {
+                flag = false;
+                $("#img1").fadeIn();
+                $("#img2").fadeIn();
+            })
+        })
+        function animation1() {
+            if (flag === false){
+                return true
+            }
+            $("#img2").fadeOut(2000);
+            $("#img1").fadeIn(2000);
+            window.setTimeout(animation2, 2000)
+
+        }
+        function animation2() {
+            if (flag === false){
+                return true
+            }
+            $("#img1").fadeOut(2000);
+            $("#img2").fadeIn(2000);
+            window.setTimeout(animation1, 2000)
+        }
+    </script>
+    <style>
+        img {
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div>
+        <img id="img1"
+             src="https://sun9-75.userapi.com/impg/oiwZL4tRPjy1UkqzLR31yoeyOFNJj_K9FaEVAA/B1Cv-flFmIA.jpg?size=156x100&quality=96&sign=759cd3c287cb054e57d8ffe8715d2886&type=album"
+             style="display: none">
+        <img id="img2"
+             src="https://avatars.dzeninfra.ru/get-zen_doc/1131857/pub_5b9fd2198017c300ab1f6ecd_5b9fd29059419200ab74253d/scale_1200"
+             style="display: none">
+    </div>
+    <div>
+        <input type="button" id="buttonStart" value="тест">
+        <input type="button" id="buttonStop" value="стоп">
+    </div>
+</div>
+</body>
+</html>

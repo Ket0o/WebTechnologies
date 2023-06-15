@@ -1,0 +1,73 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+ul li {
+    float: right;
+}
+
+.text-center{
+    text-align: center;
+    display: block;
+    margin: 300px auto;
+}
+
+.text-center-row{
+    text-align: center;
+    display: block;
+    margin: 0 0 auto;
+}
+
+html{
+  height: 100%;
+}
+
+.textFontWhite{
+    font-family: "Comic Sans MS", sans-serif;
+    color: white;
+    font-size: 5mm;
+}
+
+.textFontBlack{
+    font-family: "Comic Sans MS", sans-serif;
+    color: black;
+    font-size: 5mm;
+}
+
+.bodywrapper{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 1278px;
+    height: 150px;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    justify-content: flex-start;
+}
+
+.containerLeft{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: block;
+}
+
+.containerRight{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: block;
+}
+
+.dateBlock {
+    vertical-align: bottom;
+    width: 10%;
+    color: white;
+}

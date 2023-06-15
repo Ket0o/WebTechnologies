@@ -1,0 +1,140 @@
+ul {
+   list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    justify-content: flex-start;
+}
+
+ul li {
+    float: right;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-family: "Comic Sans MS", sans-serif;
+    color: rgb(230,187,12);
+    font-size: 40mm;
+}
+
+.textInfoFontLeft{
+    font-family: "Comic Sans MS", sans-serif;
+    color: rgb(230,187,12);
+    font-size: 5mm;
+    padding-left: 0;
+    text-align: left;
+}
+
+.textInfoFontRight{
+    font-family: "Comic Sans MS", sans-serif;
+    color: rgb(230,187,12);
+    font-size: 5mm;
+    padding: 0;
+    text-align: right;
+}
+
+.img-center{
+    display: block;
+    margin: 20px auto;
+}
+
+html{
+  height: 100%;
+}
+
+.textFontWhite{
+    font-family: "Comic Sans MS", sans-serif;
+    color: white;
+    font-size: 5mm;
+}
+
+.textFontYellow{
+    font-family: "Comic Sans MS", sans-serif;
+    color: rgb(230,187,12);
+    font-size: 5mm;
+}
+
+.textFontBlack{
+    font-family: "Comic Sans MS", sans-serif;
+    color: black;
+    font-size: 5mm;
+}
+
+.pageAboutMeLiA {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.pageAboutMeLiA:hover {
+    color: rgb(230,187,12);
+}
+
+.pageAboutMeActive {
+    color: rgb(230,187,12);
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.pageAboutMeAText{
+    font-family: "Comic Sans MS", sans-serif;
+    color: white;
+    font-size: 20mm;
+    text-align: center;
+    display: block;
+    margin: 300px ;
+    text-decoration: none;
+}
+
+.container{
+    width: 1278px;
+    height: 150px;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    justify-content: flex-start;
+}
+
+.containerHeader{
+    width: 70%;
+    height: 150px;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+
+.bodywrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.containerLeft{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: block;
+}
+
+.containerRight{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: block;
+}

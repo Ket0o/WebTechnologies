@@ -1,0 +1,33 @@
+.hometownLiA {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.hometownLiA:hover {
+    color: white;
+}
+
+.hometownActivity {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.hometownAText{
+    font-family: "Comic Sans MS", sans-serif;
+    color: white;
+    font-size: 20mm;
+    text-align: center;
+    display: block;
+    margin: 345px ;
+    text-decoration: none;
+}

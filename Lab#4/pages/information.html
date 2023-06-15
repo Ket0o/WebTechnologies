@@ -1,0 +1,170 @@
+<html lang="ru">
+    <head>
+        <title>Информация</title>
+        <meta charset="UTF-8">
+        <style>
+            #fields {
+                float:left;
+            }
+
+            #fields label {
+                float: left;
+                padding-right:10px;
+            }
+
+            #fields div {
+                clear: both;
+                text-align: right;
+                line-height:25px;
+            }
+            span {
+                color: red;
+            }
+        </style>
+        <script src="../js/script_information.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <form name="regForm">
+            <div id="fields">
+                <fieldset>
+                    <legend>Информация о вас</legend>
+                    <div>
+                        <label>
+                            Фамилия:
+                            <span>
+                                *
+                            </span>
+                        </label>
+                        <input type="text" required name="lastname">
+                    </div>
+                    <div>
+                        <label>
+                            Имя:
+                            <span>
+                                *
+                            </span>
+                        </label>
+                        <input type="text" required name="firstname">
+                    </div>
+                    <div>
+                        <label>
+                            Отчество:
+                            <span>
+                                *
+                            </span>
+                        </label>
+                        <input type="text" required name="fathersname">
+                    </div>
+                    <div>
+                        <label>
+                            Возраст:
+                            <span>
+                                *
+                            </span>
+                        </label>
+                        <input type="number" required name="Age">
+                    </div>
+                    <div>
+                        <label>
+                            Адрес:
+                            <span>
+                                *
+                            </span>
+                        </label>
+                        <input type="text" required name="Address">
+                    </div>
+                    <div>
+                        <label>
+                            Номер телефона:
+                            <span>
+                                *
+                            </span>
+                        </label>
+                        <input type="tel" required name="phonenumber">
+                    </div>
+                    <div>
+                        <label>
+                            Электронная почта:
+                            <span>
+                                *
+                            </span>
+                        </label>
+                        <input type="email" required name="email">
+                    </div>
+                    <div>
+                        <label>
+                            Страна:
+                            <span>
+                                *
+                            </span>
+                        </label>
+                        <input type="text" required name="country">
+                    </div>
+                    <div>
+                        <label>
+                            Рост:
+                            <span>
+                                *
+                            </span>
+                        </label>
+                        <input type="number" required name="height">
+                    </div>
+                    <div>
+                        <label>
+                            Размер ноги:
+                            <span>
+                                *
+                            </span>
+                        </label><input type="number" required name="foot_size">
+                    </div>
+                    <div>
+                        <label>
+                            Вес:
+                            <span>
+                                *
+                            </span>
+                        </label>
+                        <input type="number" required name="weight">
+                    </div>
+                    <div>
+                        <label>
+                            Почтовый индекс:
+                            <span>
+                                *
+                            </span>
+                        </label>
+                        <input type="number" required name="postal_code">
+                    </div>
+                    <div>
+                        <label>
+                            Город проживания:
+                            <span>
+                                *
+                            </span>
+                        </label>
+                        <input type="text" required name="city">
+                    </div>
+                    <div>
+                        <label>
+                            Любимый цвет:
+                            <span>
+                                *
+                            </span>
+                        </label>
+                        <input type="color" required name="favorite_color">
+                    </div>
+                    <div>
+                        <label>
+                            Любимый вид спорта:
+                            <span>
+                                *
+                            </span>
+                        </label>
+                        <input type="text" required name="favorite_sport">
+                    </div>
+                </fieldset>
+                <input type="button" value="Отправить" onclick="inf()">
+            </div>
+        </form>
+    </body>
+</html>

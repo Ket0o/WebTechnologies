@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+        $(document).ready(function (){
+                var links = $("p");
+                $("#button1").click(function (){
+                    links.each(function (i, a) {
+                        if ((i+1) % 2 == 1)
+                        {
+                            $(links[i]).hide();
+                        }
+                    });
+                })
+                $("#button2").click(function (){
+                    links.each(function (i, a) {
+                        if ((i+1) % 2 == 1)
+                        {
+                            $(links[i]).show();
+                        }
+                    });
+                })
+            });
+    </script>
+</head>
+<body>
+    <p>this is a paragraph.</p>
+    <p >this is another paragraph 2</p>
+    <p>this is another paragraph 3</p>
+    <p>this is another paragraph 4</p>
+    <button id="button1">hide</button>
+    <button id="button2">show</button>
+</body>
+</html>

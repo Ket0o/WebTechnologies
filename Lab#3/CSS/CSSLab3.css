@@ -1,0 +1,143 @@
+ul {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+ul li {
+    float: right;
+}
+
+.text-center{
+    text-align: center;
+    display: block;
+    margin: 300px auto;
+}
+
+.text-center-row{
+    text-align: center;
+    display: block;
+    margin: 0 0 auto;
+}
+
+html{
+  height: 100%;
+}
+
+.textFontWhite{
+    font-family: "Comic Sans MS", sans-serif;
+    color: white;
+    font-size: 5mm;
+}
+
+.textFontBlack{
+    font-family: "Comic Sans MS", sans-serif;
+    color: black;
+    font-size: 5mm;
+}
+
+.bodywrapper{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 1000px;
+    background: white;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.lab3LiA {
+    display: block;
+    color: rgb(45,118,212);
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.lab3LiA:hover {
+    color: rgb(252,76,1);
+}
+
+.lab3Activity {
+    color: rgb(252,76,1);
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.lab3AText{
+    font-family: "Comic Sans MS", sans-serif;
+    color: white;
+    font-size: 20mm;
+    text-align: center;
+    display: block;
+    margin: 345px ;
+    text-decoration: none;
+}
+
+.textFontOrange{
+    font-family: "Comic Sans MS", sans-serif;
+    color: rgb(252,76,1);
+    font-size: 5mm;
+}
+
+.col-1-1 {
+    width: 600px;
+    height: 33%;
+    background: white;
+    border: 2px solid black;
+}
+
+.col-1-2 {
+    width: 100%;
+    height: 35%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 2px solid black;
+}
+
+.col-1-3 {
+    width: 600px;
+    height: 25%;
+    background: white;
+    border: 2px solid black;
+}
+
+.col-1-4 {
+    width: 600px;
+    height: 25%;
+    background: white;
+    border: 2px solid black;
+}
+
+.containerIn2 {
+    background: white;
+    padding: 10px;
+    margin-right: 1px;
+    width: 15%;
+    height: 70%;
+    display: inline-block;
+    align-self: flex-end;
+}
+
+.containerIn22 {
+    background: white;
+    padding: 10px;
+    margin-right: 1px;
+    width: 98%;
+    height: 6.8%;
+    position: absolute;
+    color: black;
+    border: 2px solid black;
+}

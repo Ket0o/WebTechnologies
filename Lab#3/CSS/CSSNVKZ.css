@@ -1,0 +1,35 @@
+.NVKZLiA {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.NVKZLiA:hover {
+    color: rgb(86,183,201);
+}
+
+.NVKZActivity {
+    color: rgb(86,183,201);
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.NVKZAText{
+    font-family: "Comic Sans MS", sans-serif;
+    color: black;
+    font-size: 20mm;
+    text-align: center;
+    display: block;
+    margin: 345px ;
+    text-decoration: none;
+}
+
+

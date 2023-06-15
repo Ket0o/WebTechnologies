@@ -1,0 +1,44 @@
+<html lang="ru">
+    <head>
+        <title>Главная</title>
+         <meta charset="UTF-8">
+        <style>
+            .parent {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                overflow: auto;
+            }
+            .block {
+                width: 500px;
+                height: 250px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                margin: auto;
+                text-align: center;
+            }
+        </style>
+        <script src="js/script_redirect.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="block">
+                <button onclick="redirect('pages/tree.html')">
+                    <h1>
+                        Дерево
+                    </h1>
+                </button>
+                <button onclick="redirect('pages/information.html')">
+                    <h1>
+                        Информация о вас
+                    </h1>
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

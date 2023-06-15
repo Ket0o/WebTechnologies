@@ -1,0 +1,89 @@
+.basketballLiA {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.basketballBotoomA {
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: "Comic Sans MS", sans-serif;
+    color: white;
+    font-size: 5mm;
+}
+
+.basketballTopA {
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: "Comic Sans MS", sans-serif;
+    color: black;
+    font-size: 5mm;
+}
+
+.basketballLiA:hover {
+    color: orange;
+}
+
+.container{
+    width: 60%;
+    height: 80%;
+    background: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerPTop{
+    padding-top: 50px;
+    width: 80%;
+    height: 100%;
+    background: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.containerPBottom{
+    padding-top: 0;
+    width: 80%;
+    height: 100%;
+    background: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.containerPBottomFooter{
+    padding-top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.basketballTopAA {
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: "Comic Sans MS", sans-serif;
+    color: cornflowerblue;
+    font-size: 5mm;
+}

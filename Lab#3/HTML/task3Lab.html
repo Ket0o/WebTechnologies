@@ -1,0 +1,152 @@
+<html lang="ru">
+    <head>
+        <title>
+            3 Лабораторная работа
+		</title>
+    	<meta charset="UTF-8">
+		<meta name="viewport" content="width=1365">
+		<meta name="description" content="3 Лабораторная работа">
+        <link rel="stylesheet" href="../CSS/CSSLab3.css">
+    	<script src="../JS/Zadanie1.js" ></script>
+		<script src="../JS/Zadanie2.js" ></script>
+		<script src="../JS/Zadanie3.js"></script>
+		<script src="../JS/Zadanie4.js"></script>
+	</head>
+   <body id="body">
+		<div>
+			<style>
+					#namepage {
+						position: absolute;
+						text-align: left;
+						left: 0;
+      					top: 0;
+      					padding: 0 10px;
+						display: inline-block;
+						text-decoration: none;
+						font-size: 30px;
+					}
+		</style>
+		<a id="namepage" class="textFontOrange" href="hometown.html">3 Лабораторная<br>работа</a>
+			<ul>
+				<li><a href="task3Lab.html" class="lab3Activity">3 Лабораторная работа</a></li>
+				<li><a class="lab3LiA" href="https://tusur.ru/ru" target="_blank">ВУЗ</a></li>
+				<li><a class="lab3LiA" href="https://timetable.tusur.ru/faculties/fvs/groups/571-2" target="_blank">Группа</a></li>
+				<li><a class="lab3LiA" href="hometown.html">Место рождения</a></li>
+				<li><a class="lab3LiA" href="education.html">Образование</a></li>
+				<li><a class="lab3LiA" href="activity.html" >Любимое занятие</a></li>
+				<li><a class="lab3LiA" href="informationAboutAcademicPerformance.html">Сведения об успеваемости</a></li>
+				<li><a class="lab3LiA" href="programmingLanguage.html">Языки, которые мы изучаем</a>   </li>
+				<li><a class="lab3LiA" href="firstlab.html">Главная</a></li>
+			</ul>
+		<div class="container">
+      		<div class="col-1-1">
+				<h2>Задание 1</h2>
+      		      <form name="form1">
+      		          <h2>Введите количество элементов электрической цепи: </h2>
+      		          <input type="number" name="countElement">
+						<h2>Введите сопротивление элементов электрической цепи: <br> В виде: 1, 2, 3, 4</h2>
+      		          <input type="text" name="arrayInput">
+      		          <input type="button" onclick="task1()" value="Проверить">
+      		          <h2 id="answer"></h2>
+      		      </form>
+      		</div>
+      		<div class="col-1-2">
+				<div class="containerIn22">
+					<h2>
+						<script>
+							EvenOrNotEvenPrint()
+						</script>
+			  		</h2>
+			  	</div>
+		  		<div class="containerIn2">
+			  		<h2>
+				  		Понедельник
+			  		</h2>
+			  		<h3>
+						<script>
+							Timetable(0);
+						</script>
+					</h3>
+		  		</div>
+		  		<div class="containerIn2">
+					<h2>
+						Вторник
+					</h2>
+					<h3>
+						<script>
+							Timetable(1);
+						</script>
+					</h3>
+		  		</div>
+		  		<div class="containerIn2">
+					<h2>
+						Среда
+					</h2>
+					<h3>
+						<script>
+							Timetable(2);
+						</script>
+					</h3>
+		  		</div>
+		  		<div class="containerIn2">
+					<h2>
+						Четверг
+					</h2>
+					<h3>
+						<script>
+							Timetable(3);
+						</script>
+					</h3>
+		  		</div>
+		  		<div class="containerIn2">
+					<h2>
+						Пятница
+					</h2>
+					<h3>
+						<script>
+							Timetable(4);
+						</script>
+					</h3>
+		  		</div>
+		  		<div class="containerIn2">
+					<h2>
+						Суббота
+					</h2>
+					<h3>
+						<script>
+							Timetable(5);
+						</script>
+					</h3>
+		  		</div>
+		  		<div class="containerIn2">
+					<h2>
+						Воскресенье
+					</h2>
+					<h3>
+						<script>
+							Timetable(6);
+						</script>
+					</h3>
+		  		</div>
+      		</div>
+      		<div class="col-1-3">
+				<h2>Задание 3</h2>
+				<h2>Нажмите на кнопку для генерации случайного числа от 0 до 5: </h2>
+				<button onclick="task3()">
+					<h2>
+						Сгенерировать
+					</h2>
+				</button>
+      		</div>
+      		<div class="col-1-4">
+				<h2>Задание 4</h2>
+				<button onclick="task4()">
+					<h1>
+						НАЖМИ!
+					</h1>
+				</button>
+      		</div>
+		</div>
+		</div>
+   </body>
+</html>

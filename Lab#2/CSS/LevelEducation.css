@@ -1,0 +1,120 @@
+.ul {
+   list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    justify-content: flex-start;
+}
+
+.ulli {
+    float: right;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-family: "Comic Sans MS", sans-serif;
+    color: rgb(230,187,12);
+    font-size: 40mm;
+}
+
+.textInfoFontLeft{
+    font-family: "Comic Sans MS", sans-serif;
+    color: rgb(39,114,135);
+    font-size: 20px;
+    padding-left: 0;
+    text-align: left;
+}
+
+.textInfoFontRight{
+    font-family: "Comic Sans MS", sans-serif;
+    color: rgb(230,187,12);
+    font-size: 5mm;
+    padding: 0;
+    text-align: right;
+}
+
+.img-center{
+    display: block;
+    margin: 20px auto;
+}
+
+html{
+  height: 100%;
+}
+
+.textFontBlue{
+    font-family: "Comic Sans MS", sans-serif;
+    color: rgb(39,114,135);
+    font-size: 5mm;
+}
+
+.textFontYellow{
+    font-family: "Comic Sans MS", sans-serif;
+    color: rgb(230,187,12);
+    font-size: 5mm;
+}
+
+.textFontBlack{
+    font-family: "Comic Sans MS", sans-serif;
+    color: black;
+    font-size: 5mm;
+}
+
+.LevelEducationLiA {
+    display: block;
+    color: rgb(39,114,135);
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.LevelEducationLiA:hover {
+    color: white;
+}
+
+.container{
+    width: 1278px;
+    height: 150px;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: flex-start;
+}
+
+.containerHeader{
+    width: 70%;
+    height: 150px;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+
+.bodywrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.containerLeft{
+    width: 50%;
+    height: 100%;
+    background: none;
+    display: block;
+}
+
+.containerRight{
+    width: 50%;
+    height: 100%;
+    background: none;
+    display: block;
+}
